@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css.css">
@@ -14,79 +15,93 @@
     <title>About Me</title>
 </head>
 
+<header>
+    <div class="container" style="background-color: slategray;">
+        <nav class="navbar navbar-expand-lg navbar-dark pl-0  h-100">
+            <a class=" navbar-brand ml-5  " href="#" style="background-color:darkgrey">Adam
+                Parsons</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-        <a class=" navbar-brand  col-md-2 ml-5" href="#" style="background-color:rgb(14, 218, 156)">Adam Parsons</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="col-md-6"></div>
-        <div class="collapse navbar-collapse col-md-3" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-
-    </nav>
     <main>
-        <div class="row">
-            <div class=col-md-7>
-                <div class="card mt-3 ml-5">
-                    <div class="card-body">
-                        <h5 class="card-title">About Me</h5>
-                        <img src="profile picture.jpg" alt="Profile picture of Adam Parsons"
-                            class="img-fluid float-left mr-2" style="max-width:300px">
-                        <p class="ml-2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at enim in quam tincidunt
-                            molestie.
-                            In et lectus ut est rhoncus sollicitudin. Quisque eu nisi a diam ultrices lacinia. Nunc sed
-                            ornare nisi. Duis placerat lobortis turpis ac bibendum. Mauris rutrum felis vel metus
-                            pulvinar,
-                            vel vehicula nibh tincidunt. Ut convallis eu sem quis pellentesque. Nam a accumsan erat.
-                            Nullam
-                            posuere efficitur velit eget ultricies. Vivamus sed ex et nisi iaculis consectetur.
+        <div class="container" style="background-color: blanchedalmond;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mt-3 ml-5" style="background-image: url('leather_1.png');">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                            <img src="profile picture.jpg" alt="Profile picture of Adam Parsons"
+                                class="img-fluid float-left mr-2" style="max-width:300px">
+                            <p class="ml-2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at enim in quam tincidunt
+                                molestie.
+                                In et lectus ut est rhoncus sollicitudin. Quisque eu nisi a diam ultrices lacinia. Nunc
+                                sed
+                                ornare nisi. Duis placerat lobortis turpis ac bibendum. Mauris rutrum felis vel metus
+                                pulvinar,
+                                vel vehicula nibh tincidunt. Ut convallis eu sem quis pellentesque. Nam a accumsan erat.
+                                Nullam
+                                posuere efficitur velit eget ultricies. Vivamus sed ex et nisi iaculis consectetur.
 
-                            Pellentesque neque nisi, dictum at pulvinar non, posuere nec erat. Quisque dictum velit at
-                            mauris hendrerit condimentum. Morbi volutpat efficitur scelerisque. Nulla non urna et sapien
-                            pellentesque suscipit eget et mi. Sed congue sit amet massa at auctor. Praesent molestie
-                            arcu ac
-                            risus tempus aliquam. Duis in tellus eget orci commodo vestibulum. Ut scelerisque magna quis
-                            sollicitudin pretium. Aliquam erat volutpat.
+                                Pellentesque neque nisi, dictum at pulvinar non, posuere nec erat. Quisque dictum velit
+                                at
+                                mauris hendrerit condimentum. Morbi volutpat efficitur scelerisque. Nulla non urna et
+                                sapien
+                                pellentesque suscipit eget et mi. Sed congue sit amet massa at auctor. Praesent molestie
+                                arcu ac
+                                risus tempus aliquam. Duis in tellus eget orci commodo vestibulum. Ut scelerisque magna
+                                quis
+                                sollicitudin pretium. Aliquam erat volutpat.
 
-                            Integer et placerat odio, non venenatis eros. Nullam tempor, mauris ut consectetur lacinia,
-                            dolor augue varius nulla, nec fermentum mauris augue non nisi. Vestibulum pulvinar et quam
-                            posuere porta. Donec lacinia leo et turpis tincidunt consequat. Maecenas libero mauris,
-                            facilisis nec vulputate id, tempus non ante. Donec tincidunt facilisis pretium. Sed
-                            facilisis
-                            nulla ex, et tempus velit tincidunt ac. In finibus leo quis massa viverra tincidunt. Mauris
-                            elit
-                            massa, luctus gravida placerat in, gravida a diam. Maecenas a risus aliquet, suscipit augue
-                            a,
-                            eleifend mauris. Donec mollis, neque a vulputate ullamcorper, neque risus euismod nunc, et
-                            luctus turpis felis sit amet est. Donec sit amet nunc vehicula, fermentum tellus at,
-                            consequat
-                            nunc.
+                                Integer et placerat odio, non venenatis eros. Nullam tempor, mauris ut consectetur
+                                lacinia,
+                                dolor augue varius nulla, nec fermentum mauris augue non nisi. Vestibulum pulvinar et
+                                quam
+                                posuere porta. Donec lacinia leo et turpis tincidunt consequat. Maecenas libero mauris,
+                                facilisis nec vulputate id, tempus non ante. Donec tincidunt facilisis pretium. Sed
+                                facilisis
+                                nulla ex, et tempus velit tincidunt ac. In finibus leo quis massa viverra tincidunt.
+                                Mauris
+                                elit
+                                massa, luctus gravida placerat in, gravida a diam. Maecenas a risus aliquet, suscipit
+                                augue
+                                a,
+                                eleifend mauris. Donec mollis, neque a vulputate ullamcorper, neque risus euismod nunc,
+                                et
+                                luctus turpis felis sit amet est. Donec sit amet nunc vehicula, fermentum tellus at,
+                                consequat
+                                nunc.
 
-                            Nunc quis vulputate mauris. Vivamus quis interdum justo. Nunc sagittis purus at sem
-                            vulputate,
-                            in pharetra mauris dapibus. Cras lorem quam, vulputate semper ex sollicitudin, malesuada
-                            rutrum
-                            leo. Donec pharetra blandit est, sed gravida leo semper convallis. Praesent tincidunt
-                            blandit
-                            dui eu vestibulum. In vitae iaculis eros. Nulla egestas lectus non bibendum porttitor.
-                            Vestibulum eu venenatis ex, sit amet sagittis urna. Maecenas ac metus id leo vulputate
-                            pellentesque.
-                        </p>
+                                Nunc quis vulputate mauris. Vivamus quis interdum justo. Nunc sagittis purus at sem
+                                vulputate,
+                                in pharetra mauris dapibus. Cras lorem quam, vulputate semper ex sollicitudin, malesuada
+                                rutrum
+                                leo. Donec pharetra blandit est, sed gravida leo semper convallis. Praesent tincidunt
+                                blandit
+                                dui eu vestibulum. In vitae iaculis eros. Nulla egestas lectus non bibendum porttitor.
+                                Vestibulum eu venenatis ex, sit amet sagittis urna. Maecenas ac metus id leo vulputate
+                                pellentesque.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
