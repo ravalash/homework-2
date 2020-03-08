@@ -11,7 +11,9 @@ This project is written using HTML and CSS Bootstrap framework
 
 # Screenshots
 
+
 # Features
+Nav bar is dyanmic, shifting content to right at large view points, left at medium view points, and collapsing at small viewpoints. Nav bar is also sticky and does not move. Columns on profile page collapse below large viewpoints for easier viewing. Content is justified left at large view points and centered at lower view poiints.
 
 # Code Example
 
