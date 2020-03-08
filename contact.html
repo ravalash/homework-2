@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -14,17 +15,21 @@
 </head>
 
 
-
 <body>
+    <!--Sticks header element to top  -->
     <header class="sticky-top">
+        <!--Container is used to allow link elements justified to end  -->
         <div class="container" style="background-color: slategray;">
+            <!-- expand above small break point. left padding removed for content alignment -->
             <nav class="navbar navbar-expand-sm navbar-dark pl-0  h-100">
-                <a class=" navbar-brand ml-5  " href="#" style="background-color:darkgrey">Adam
+                <!-- left margin expanded to align content -->
+                <a class=" navbar-brand ml-5  " href="index.html" style="background-color:darkgrey">Adam
                     Parsons</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- link elements justified to end of container -->
                 <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -46,28 +51,34 @@
 
         <div class="container" style="background-color: blanchedalmond;min-height: 100vh;">
             <div class="row">
+                <!-- column keeps text to left below large breakpoint -->
                 <div class="col-lg-9">
+                    <!-- left margin keeps content aligned below large breakpoint -->
                     <div class="card mt-3 ml-lg-5" style="background-image: url('leather_1.png');">
                         <div class="card-body">
                             <h2 class="card-title display-4 text-muted">Contact</h2>
 
                             <form>
+                                <!-- input capture of user name -->
                                 <div class="form-group">
                                     <label for="nameInput">Name</label>
                                     <input type="text" class="form-control" id="nameInput" placeholder="John Smith">
                                 </div>
 
                                 <div class="form-group">
+                                    <!-- input capture of user e-mail -->
                                     <label for="emailInput">Email address</label>
                                     <input type="email" class="form-control" id="emailInput"
                                         placeholder="name@example.com">
                                 </div>
 
                                 <div class="form-group">
+                                    <!-- input capture of user message  -->
                                     <label for="messageInput">Message</label>
                                     <textarea class="form-control" id="messageInput" placeholder="Dear Adam..."
                                         rows="6"></textarea>
                                 </div>
+                                <!-- button non function with java -->
                                 <button class="btn btn-secondary" type="submit">Submit</button>
                             </form>
                         </div>
@@ -76,6 +87,14 @@
             </div>
         </div>
     </main>
+
+    <div class="container pl-0 pr-0">
+        <footer class="footer py-4  text-white-50" style="background-color:slategray">
+            <div class="container text-center">
+                <small>Copyright &copy; https://ravalash.github.io/ </small>
+            </div>
+        </footer>
+    </div>
 
 
 
