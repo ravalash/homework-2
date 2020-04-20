@@ -1,19 +1,37 @@
-# homework-2
-
 # Project Title
-Week 2 Bootstrap 2 Homework
+Updated Portfolio - Week 8 Homework
 
 # Motivation 
 This homework file will serve as a future page for a collection of projects created during Penn's Coding Boot Camp and allow practice in coding responsive web design using Boot Strap.
+
+Updated 04/19/2020
+THe content of the portfolio page has been updated to include links to completed projects in both source code and deployed pages. Additionally, the contact information in the footer has been modified to include updated references and can serve as a public facing prescence for presenting to recruiters.
 
 # Code Style
 This project is written using HTML and CSS Bootstrap framework
 
 # Screenshots
-Screenshots included in Github Repo
+
+
+About Me
+
+
+![About](screenshots/about.jpg "About Me")
+
+
+Portfolio
+
+
+![Portfolio](screenshots/portfolio.jpg "Portfolio")
+
+
+Rejected Input
+
+
+![Contact](screenshots/contact.jpg "Contact")
 
 # Features
-Nav bar is dyanmic, shifting content to right at large view points, left at medium view points, and collapsing at small viewpoints. Nav bar is also sticky and does not move. Columns on profile page collapse below large viewpoints for easier viewing. Content is justified left at large view points and centered at lower view poiints.
+Nav bar is dyanmic, shifting content to right at large view points, left at medium view points, and collapsing at small viewpoints. Nav bar is also sticky and does not move. Columns on profile page collapse below large viewpoints for easier viewing. Content is justified left at large view points and centered at lower view poiints. Portfolio page has links to deployed applications in the screenshot displayed and Github repo in the title. 
 
 # Code Example
     <header class="sticky-top">
@@ -32,5 +50,7 @@ Nav bar is dyanmic, shifting content to right at large view points, left at medi
 
 # How to Use
 Links on nav bar direct to each relevant page. Submit button opn contact page does not currently function.
+
+https://ravalash.github.io/homework-2/index.html
 
 
